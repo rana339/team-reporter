@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./e.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+    
+    <div>
+        <i class="fas fa-plus-circle" onclick="createteam()"></i>
+    </div>
+    <div id="create_team">
+        <h1>Create new Team</h1>
+        <input type="text" class="match" placeholder="Member Name" id="member_name"><br>
+        <input type="text" class="match" placeholder="Team Name" id="team_name"> <br>
+        <input type="email" class="match" placeholder="Member (type email)" id="person_email"> <br>
+        <input type="button" class="create_input" value="create" onclick="create()">
+        <input type="button" class="cancel_input" value="cancel" onclick="cancel()">
+    </div>
+    <div id="child_container" class="ali">
+        <div id="my_team">
+            <h1>Teams You Own</h1>
+        </div>
+        <div>
+
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
